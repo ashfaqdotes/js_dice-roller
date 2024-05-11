@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D I C E - R O L L</title>
+    <style>
+      img {
+        height: 200px;
+      }
+      .main-box {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .second-box {
+        justify-content: center;
+      }
+
+      .dice-btn {
+        height: 50px;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-box">
+      <div class="second-box">
+        <h1>Dice Roller</h1>
+        <h2 id="winner"></h2>
+        <p id="result">ROLL the DICE !!!</p>
+        <p id="rolling"></p>
+        <div class="secondbox">
+          <img id="dice-image1" src="images/rolling-dices.png" alt="" />
+          <img id="dice-image2" alt="" />
+        </div>
+        <button class="dice-btn" onclick="rollDice()">Roll Dice</button>
+      </div>
+    </div>
+    <script src="dice.js"></script>
+  </body>
+</html>
