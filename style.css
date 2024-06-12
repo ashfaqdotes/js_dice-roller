@@ -1,1 +1,18 @@
+ img {
+        height: 200px;
+      }
+      .main-box {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+      }
 
+      .second-box {
+        justify-content: center;
+      }
+
+      .dice-btn {
+        height: 50px;
+        width: 100%;
+      }
